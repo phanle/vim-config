@@ -6,6 +6,10 @@
     cd ~/.vim
     git submodule update --init
     ln -s ~/.vim/vimrc ~/.vimrc
+    cd ~/.vim/bundle/command-t/ruby/command-t
+    which rvm && rvm use system # ensure you're using system ruby
+    ruby extconf.rb
+    make
 
 # Updating
 
