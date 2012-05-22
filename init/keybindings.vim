@@ -69,13 +69,13 @@ map <leader>f   <Plug>PeepOpen
 map <leader><C-N> :FufFile **/<CR>
 map <D-e> :FufBuffer<CR>
 map <leader>n :FufFile **/<CR>
-map <D-N> :FufFile **/<CR>
 
 " refresh the FuzzyFinder cache
 map <leader>rf :FufRenewCache<CR>
 
 " Command-T
 map <D-N>       :CommandTFlush<CR>:CommandT<CR>
+map <D-T>       :CommandTFlush<CR>:CommandT<CR>
 map <leader>f   :CommandTFlush<CR>:CommandT<CR>
 
 " ctags with rails load path
