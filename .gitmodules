@@ -105,3 +105,6 @@
 [submodule "bundle/handlebars"]
 	path = bundle/handlebars
 	url = git://github.com/nono/vim-handlebars.git
+[submodule "bundle/ctlp"]
+	path = bundle/ctlp
+	url = https://github.com/ctrlpvim/ctrlp.vim.git
